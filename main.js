@@ -11,9 +11,9 @@ function main()
         -0.5, -0.5, //titik a
         -0.5, 0.5,  //titik b
         -0.5, 0.5,
-        0.5, -0.5,  //titik c
-        0.5, -0.5,
-        0.5, 0.5    //titik d
+        0.0, -0.5,  //titik c
+        0.0, -0.5,
+        0.0, 0.5    //titik d
     ];
 
     var positionBuffer = gl.createBuffer();
